@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
     apps: [{
         name: "Wawa",
-        script: '.index.js',
+        script: './index.js',
         watch: './',
     }],
 
