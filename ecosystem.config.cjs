@@ -12,7 +12,7 @@ module.exports = {
             user: 'pi',
             host: process.env.SERVER_IP,
             ref: 'origin/main',
-            repo: 'git@github.com:***REMOVED***/wawa-bot.git',
+            repo: 'git@github.com:spookicazt/wawa-bot.git',
             path: '/home/pi/bots/wawa',
             'pre-deploy-local': '',
             'post-deploy': 'npm install && pm2 reload ecosystem.config.cjs',
